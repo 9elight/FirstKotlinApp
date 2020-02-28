@@ -1,8 +1,10 @@
-package com.example.firstkotlinapp
+package com.example.firstkotlinapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
+import com.example.firstkotlinapp.R
+import com.example.firstkotlinapp.utils.UiManager
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity() {
@@ -25,6 +27,9 @@ class SecondActivity : AppCompatActivity() {
         }
 
 
-        UiManager.showToast("Hello its class from java", this)
+        UiManager.showToast(
+            "Hello its class from java",
+            this
+        )
     }
 }
