@@ -93,31 +93,31 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:text="№"/>
+            android:text="@string/number"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2.5"
             android:textAlignment="textStart"
-            android:text="Название товара"/>
+            android:text="@string/title"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:text="Цена"/>
+            android:text="@string/price"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:text="Скидка"/>
+            android:text="@string/tf_discount"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:text="Сумма"/>
+            android:text="@string/tf_amount"/>
 
     </LinearLayout>
 

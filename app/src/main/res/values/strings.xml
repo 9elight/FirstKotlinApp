@@ -7,4 +7,9 @@
     <string name="date">Дата:</string>
     <string name="total">Итого:</string>
     <string name="discount">Сумма скидки:</string>
+    <string name="number">№</string>
+    <string name="title">Название товара</string>
+    <string name="price">Цена</string>
+    <string name="tf_discount">Скидка</string>
+    <string name="tf_amount">Сумма</string>
 </resources>

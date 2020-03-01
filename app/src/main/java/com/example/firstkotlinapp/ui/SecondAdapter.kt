@@ -26,12 +26,13 @@ class SecondAdapter(var list: List<Shop>, val listener: OnItemClickListener) :
         fun bind(currentShop: Shop) {
             itemView.shopName.text = currentShop.shopName
             itemView.shopAddress.text = currentShop.address
-            itemView.purchase_time.text = currentShop.date.time.toString()
+            itemView.purchase_time.text = currentShop.date.toString()
             itemView.setOnClickListener {
                 listener.onItemClicked(currentShop)
             }
         }
     }
+
 
     interface OnItemClickListener {
         fun onItemClicked(item: Shop)
