@@ -16,17 +16,16 @@ class SecondActivity : AppCompatActivity() {
 
         val userName = intent.getStringExtra("userName")
         val password = intent.getStringExtra("password")
-        val action = intent.getBooleanExtra("boolean",false)
-        if (action){
+        val action = intent.getBooleanExtra("boolean", false)
+
+        if (action) {
             text.gravity = Gravity.CENTER
             val message = "userName: admin \npassword: admin"
             text.text = message
-        }else{
+        } else {
             val message = "userName: $userName \npassword: $password"
             text.text = message
         }
-
-
         UiManager.showToast(
             "Hello its class from java",
             this

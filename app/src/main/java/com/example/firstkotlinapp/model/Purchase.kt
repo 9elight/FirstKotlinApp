@@ -1,12 +1,14 @@
 package com.example.firstkotlinapp.model
 
+import java.io.Serializable
+
 data class Purchase(
     val number: Int,
     val title: String,
     val price: Double,
     val discount: Int,
     val final_price: Double
-)
+): Serializable
 
 fun createPurchase(): MutableList<Purchase> {
     return mutableListOf<Purchase>().apply {
